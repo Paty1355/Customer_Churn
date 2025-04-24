@@ -60,8 +60,8 @@ The main goal of this project is to understand the patterns behind customer chur
 
 - Achieved strong predictive performance:
   
-Accuracy: 0.8611
-Precision: 0.8546
-Recall: 0.8961
-F1 Score: 0.8748
-ROC AUC: 0.9434
+**Accuracy**: 0.8611 
+**Precision**: 0.8546
+**Recall**: 0.8961
+**F1 Score**: 0.8748
+**ROC AUC**: 0.9434
