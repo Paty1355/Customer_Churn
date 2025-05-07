@@ -20,7 +20,7 @@ The main goal of this project is to understand the patterns behind customer chur
 - **Pandas, NumPy** – data manipulation  
 - **Matplotlib, Seaborn** – data visualization  
 - **Scikit-learn** – modeling and evaluation  
-- **XGBoost / CatBoostClassifier / RandomForestClassifier / GradientBoostingClassifier** – main models  
+- **XGBoost / CatBoostClassifier / RandomForestClassifier** – main models  
 - **Statsmodels / Scipy** – statistical analysis  
 
 ## 📈 Exploratory Data Analysis
@@ -47,21 +47,18 @@ The main goal of this project is to understand the patterns behind customer chur
 
 ## 🤖 Model Development
 
-- Compared multiple models: Logistic Regression, Random Forest, XGBoost, GradientBoosting itd.
+- Compared multiple models: XGBoost, CatBoostClassifie, RandomForestClassifier
 - Evaluated using metrics like Accuracy, Precision, Recall, F1-Score, ROC-AUC
 - Final model chosen based on balanced performance and interpretability
 
 ## 🔍 Hyperparameter Tuning
 
-- Used RandomizedSearchCV
-- Optimized key parameters for best performance 
+- RandomizedSearchCV
+- Optuna
 
 ## 🚀 Results
 
 - Achieved strong predictive performance:
   
-**Accuracy**: 0.8611 
-**Precision**: 0.8546
-**Recall**: 0.8961
-**F1 Score**: 0.8748
-**ROC AUC**: 0.9434
+**Accuracy**: 0.9579
+**ROC AUC**: 0.9755
